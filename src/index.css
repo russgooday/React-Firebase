@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Aldrich;
+  src: url(./fonts/Aldrich-Regular.ttf);
+}
+
+body {
+  background-color: #eee;
+  margin: 0;
+  font-family: 'Aldrich', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  margin: 0 auto;
+  width: 550px;
+}
+
+.title {
+  display: inline-block;
+  width: 100%;
+  padding: 30px 0;
+  background: #ffa600;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.subtitle {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background-color: #222;
+  padding: 30px 0;
+  margin: 0 0 8px;
+}
+
+.eventsButtonWrapper,
+.modalButtonWrapper {
+  padding: 15px 0;
+  background-color: white;
+}
+
+.modalButtonWrapper button{
+  color: white;
+  background-color: rgb(25, 104, 255);
+}
+
+.deleteButton {
+  width: auto;
+  margin-left: 15px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 50%;
+}
+
+button {
+  width: 90%;
+  cursor: pointer;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  border: none;
+  color: white;
+  background-color:#e60012;
+  border-radius: 15px;
+  margin: 10px 0;
+  box-shadow: 2px 2px 7px 0px rgb(0 0 0 / 20%);
+}
+
+.marioEvents {
+  display: inline-block;
+  width: 100%;
+  margin: 8px auto;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  background:
+    linear-gradient(180deg, rgb(25, 104, 255) 0%,
+    rgb(74, 188, 237) 100%);
+}
