@@ -6,7 +6,7 @@
   We can only do this with classes, id's etc, but not tag types.
 
   You can see one way around this is to make the tag type a child, in this
-  case a burron, of the unique class name e.g. .EventList_card__3GWGf button
+  case a button, of the unique class name e.g. .EventList_card__3GWGf button
 */
 .card {
   border: 1px solid #eee;
