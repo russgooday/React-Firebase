@@ -1,0 +1,23 @@
+/*
+  The following module class name '.card' will be amended to
+  something like EventList_card__3GWGf so as to make it
+  a unique class name that will not conflict with others
+
+  We can only do this with classes, id's etc, but not tag types.
+
+  You can see one way around this is to make the tag type a child, in this
+  case a burron, of the unique class name e.g. .EventList_card__3GWGf button
+*/
+.card {
+  border: 1px solid #eee;
+  -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 4px;
+}
+
+.card button {
+  background-color: #555;
+}
