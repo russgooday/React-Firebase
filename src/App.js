@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <Title title="Marioland Events" subtitle={subtitle} />
       <div>
-        <button onClick={() => setShowEvents(false)}>{showEvents? 'Hide' : 'Show'} Events</button>
+        <button onClick={() => setShowEvents(!showEvents)}>{showEvents? 'Hide' : 'Show'} Events</button>
       </div>
       { showEvents ? <EventList events={events} handleClick={handleClick} /> : null }
 
