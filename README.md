@@ -8,3 +8,4 @@
 3. [Intro to State](https://github.com/russgooday/React-Firebase/tree/section-04-intro-to-state)
 4. [Components and Props](https://github.com/russgooday/React-Firebase/tree/section-05-components-and-props)
 5. [Styling React Applications](https://github.com/russgooday/React-Firebase/tree/section-06-styling-react-applications)
+6. [User Input & Events](https://github.com/russgooday/React-Firebase/tree/section-07-user-input-and-events)
