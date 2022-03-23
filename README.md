@@ -1,10 +1,10 @@
-<img src='udemy.ico' width='50'/>
+# Styling with React Applications
 
-# Build Web Apps with React & Firebase
-### Lesson chapters:
+In this chapter we look at the following topics:
 
-1. [React Basics](https://github.com/russgooday/React-Firebase/tree/section-02-react-basics)
-2. [Create React App](https://github.com/russgooday/React-Firebase/tree/section-03-create-react-app)
-3. [Intro to State](https://github.com/russgooday/React-Firebase/tree/section-04-intro-to-state)
-4. [Components and Props](https://github.com/russgooday/React-Firebase/tree/section-05-components-and-props)
-5. [Styling React Applications](https://github.com/russgooday/React-Firebase/tree/section-06-styling-react-applications)
+1. Global Stylesheets
+2. Component Stylesheets
+3. Using Inline Styles and Dynamic Inline Styles
+4. Conditional CSS Classes
+5. Finally CSS Modules
+
