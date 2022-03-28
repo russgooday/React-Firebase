@@ -23,7 +23,7 @@ The useEffect hook, takes a function that by default will be called on each rend
 
 **Dependencies**
 
-The useEffect hook has an optional argument in the form of a dependency array. This array contains values that the effect's function depends on.
+The hook has an optional argument in the form of a dependency array. This array contains values that the effect's function depends on.
 
 ```javascript
 useEffect(() => {
