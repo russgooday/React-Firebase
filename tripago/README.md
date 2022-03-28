@@ -23,7 +23,7 @@ The useEffect hook, takes a function that by default will be called on each rend
 
 **Dependencies**
 
-The useEffect hook has an optional argument in the form of a dependency array. This array contains values — for instance state variables — that the effect's function depends on.
+The useEffect hook has an optional argument in the form of a dependency array. This array contains values that the effect's function depends on.
 
 ```javascript
 useEffect(() => {
@@ -33,6 +33,6 @@ useEffect(() => {
 }, [url]) // dependant on changes to the url property
 ```
 
-The dependency array acts in a similar way to an onChange event. If on a subsequent render and component evaluation one of the values has been changed, this will *trigger* useEffect to invoke it's effect function.
+The dependency array acts in a similar way to an onChange event. On the next render of the containing component useEffect will look out for changes to the values inside of the dependency array and [conditionally fire the event](https://reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect).
 
 So for instance if the url in the above example is changed through a user clicking a button, on a subsequent render this will trigger useEffect to invoke the function and fetch new data.
