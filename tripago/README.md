@@ -22,6 +22,7 @@ In the tutorial the [useEffect](https://reactjs.org/docs/hooks-reference.html#us
 The useEffect hook, takes a function that by default will be called on each render of the component.
 
 **Dependencies**
+
 The useEffect hook has an optional argument in the form of a dependency array. This array contains values — for instance state variables — that the effect's function depends on.
 
 ```javascript
