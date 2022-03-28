@@ -19,7 +19,7 @@ yarn dev
 ### useEffect
 In the tutorial the [useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect) hook was used to fetch a list of trip locations and prices.
 
-The useEffect hook, takes a function that by default will be called on each render of the component.
+It takes a function that by default will be called on each render of the component.
 
 **Dependencies**
 
