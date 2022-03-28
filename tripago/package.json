@@ -23,8 +23,27 @@
   "eslintConfig": {
     "extends": [
       "react-app",
+      "plugin:react-hooks/recommended",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "padded-blocks": 0,
+      "no-multiple-empty-lines": 0,
+      "no-trailing-spaces": 0,
+      "no-new": 0,
+      "no-return-assign": 0,
+      "indent": [
+        "error",
+        4
+      ],
+      "react/jsx-indent": [
+        "error",
+        4
+      ]
+    },
+    "globals": {
+      "fetch": true
+    }
   },
   "browserslist": {
     "production": [
@@ -38,7 +57,18 @@
       "last 1 safari version"
     ]
   },
+  "standard.options": {
+    "ignore": [
+      "node_modules/**"
+    ],
+    "plugins": [
+      "html"
+    ],
+    "parser": "babel-eslint"
+  },
   "devDependencies": {
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "standardx": "^7.0.0"
   }
 }
